@@ -1,5 +1,6 @@
+import React from "react";
 import { NextPage } from "next";
-import Search from "../icons/search.svg";
+import { Search } from "../components";
 
 const IconsPage: NextPage = () => (
   <div>

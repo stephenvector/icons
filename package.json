@@ -1,20 +1,29 @@
 {
   "name": "@stephenvector/icons",
   "scripts": {
-    "build": "",
+    "generate": "svgr -d components svg --typescript",
+    "build": "webpack",
     "docs:build": "next build",
     "docs:dev": "next dev"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.12.17",
+    "@babel/preset-react": "^7.12.13",
+    "@babel/preset-typescript": "^7.12.17",
+    "@svgr/cli": "^5.5.0",
     "@svgr/webpack": "^5.5.0",
     "@types/node": "^14.14.30",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
     "next": "^10.0.7",
     "prettier": "^2.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "typescript": "^4.1.5"
+    "typescript": "^4.1.5",
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0"
   },
   "prettier": {}
 }
