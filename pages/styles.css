@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #33f;
+  background: #f2f2f2;
+}
+svg {
+  height: 12rem;
+  display: inline-block;
+  width: 12rem;
+  margin: 4rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
+  stroke: currentColor;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 4rem;
+  color: inherit;
+}

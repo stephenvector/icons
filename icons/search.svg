@@ -1,0 +1,13 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1">
+  <mask id="circle-mask">
+    <rect x="-16" y="-16" width="64" height="64" fill="#fff" />
+    <circle cx="16" cy="16" r="8" fill="#000" />
+  </mask>
+  <g transform="translate(-2,-2)">
+    <g transform="rotate(-45 16 16)">
+      <rect mask="url(#circle-mask)" stroke-linecap="round" width="2" height="16" x="15" y="16" />
+      <circle cx="16" cy="16" r="8" />
+      <circle cx="16" cy="16" r="6" />
+    </g>
+  </g>
+</svg>
